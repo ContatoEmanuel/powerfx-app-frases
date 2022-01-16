@@ -1,0 +1,52 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 5,
+    "Image1": 4,
+    "Label1": 6,
+    "Screen1": 3
+  },
+  "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/16/2022 23:43:31",
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "chalkboard-gcc1962395_1920": "ac5a978d-888a-4e70-ab64-6baaaf95010e.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "chalkboard-gcc1962395_1920": "https://docserverpwaprodscus.blob.core.windows.net/be434799-5a13-4738-9ee0-cd6d3dbbb77b-1/resource/Assets0Images0ac5a978d-888a-4e70-ab64-6baaaf95010e.jpg?sv=2017-04-17&sr=b&sig=Ldwfdgjm1MdvsUusjdLxjmKHHYvSLynMC0cm9XGopOU%3D&spr=https&se=2022-01-17T23%3A54%3A40Z&sp=r"
+  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 1,
+    "image": 0,
+    "label": 2
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 1,
+    "Image1": 0,
+    "Label1": 2,
+    "Screen1": 0
+  },
+  "ResourcesJsonIndices": {
+    "Image-chalkboard-gcc1962395_1920": 0,
+    "Image-SampleImage": 1
+  },
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0742495,
+    "ControlCount": {
+      "button": 1,
+      "image": 1,
+      "label": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 2.8773595,
+    "ErrorCount": 0
+  }
+}

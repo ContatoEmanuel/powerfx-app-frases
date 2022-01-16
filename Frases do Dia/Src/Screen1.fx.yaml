@@ -1,0 +1,63 @@
+Screen1 As screen:
+    Fill: =RGBA(29, 29, 29, 1)
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    Image1 As image:
+        BorderColor: =RGBA(197, 203, 207, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =306
+        Image: ='chalkboard-gcc1962395_1920'
+        Width: =640
+        Y: =8
+        ZIndex: =1
+
+    Button1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: |-
+            =UpdateContext(
+                {
+                    locFrase: Switch(
+                        RandBetween(
+                            1,
+                            5
+                        ),
+                        1,
+                        "O importante não é vencer todos os dias, mas lutar sempre. Waldemar Valle Martins",
+                        2,
+                        "Maior que a tristeza de não haver vencido é a vergonha de não ter lutado! Rui Barbosa",
+                        3,
+                        "É melhor conquistar a si mesmo do que vencer mil batalhas. Buda",
+                        4,
+                        "Quem ousou conquistar e saiu pra lutar, chega mais longe! Charlie Brown Jr",
+                        5,
+                        "Enquanto houver vontade de lutar haverá esperança de vencer. Santo Agostinho"
+                    )
+                }
+            )
+        Size: =24
+        Text: ="Gerar Frase"
+        Width: =280
+        X: =180
+        Y: =514
+        ZIndex: =2
+
+    Label1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(197, 203, 207, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =520
+        Size: =21
+        Text: =locFrase
+        Width: =640
+        Y: =616
+        ZIndex: =3
+
